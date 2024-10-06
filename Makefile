@@ -22,3 +22,6 @@ image-run: image
 run:
 	NODE_ENV=production pnpm tsx ./src/main.ts
 
+
+fmt:
+	pnpm prettier --write ./src package.json
